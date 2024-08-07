@@ -1,0 +1,26 @@
+{
+  "name": "ttsopenai-overlimit",
+  "version": "1.0.0",
+  "description": "The `ttsopenai-overlimit` package allows you to convert text to speech using the TTSOpenAI service, overcoming the 500-character limitation imposed by TTSOpenAI. This package seamlessly handles longer texts by splitting them into manageable chunks and then concatenating the resulting audio files, providing a smooth and continuous speech output for any length of text.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NULL-Command/TTSOPENAI-OVERLIMIT.git"
+  },
+  "keywords": [
+    "ttsopenai",
+    "tts over limit"
+  ],
+  "author": "NULL Command",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NULL-Command/TTSOPENAI-OVERLIMIT.git"
+  },
+  "homepage": "https://github.com/NULL-Command/TTSOPENAI-OVERLIMIT.git#readme",
+  "dependencies": {
+    "blob-to-buffer": "^1.2.9"
+  }
+}
