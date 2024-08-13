@@ -1,4 +1,4 @@
-# TTSOpenAI-Overlimit
+# TTSOpenAI Overlimit Node Package
 
 The `ttsopenai-overlimit` package allows you to convert text to speech using the TTSOpenAI service, overcoming the 500-character limitation imposed by TTSOpenAI. This package seamlessly handles longer texts by splitting them into manageable chunks and then concatenating the resulting audio files, providing a smooth and continuous speech output for any length of text.
 
